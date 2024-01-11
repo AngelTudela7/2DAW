@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="factura.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="a219a14557e6f32dc8e359ec8bbb95d0.png" alt="">
+        <div id="cosasheader">
+            <p>Industrias StarFuerte</p>
+            <p>CIF: 12345678-G</p>
+            <p>C/Forjadores s/n</p>
+            <p>Isla del hierro</p>
+            <p>Tenerife</p>
+            <p>España</p>
+        </div>
+        <div id="factura">
+            <h1> <STROng>FACTURA</STROng></h1>
+            <form>
+                <label for="numero">Numero:</label>
+                <input type="text" value="1" readonly id="numero">
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="text" value="30/04/2008" readonly id="fecha">
+            </form>
+        </div>
+    </header>
+    <div class="datosCliente">
+
+        <h1>Datos del Cliente</h1>
+        <form>
+            <div class="linea1">
+                <label for="cliente">Cliente:</label>
+                <input type="text" name="cliente" id="cliente" value="Tio Sam" readonly>
+                <label for="CIF">CIF:</label>
+                <input type="text" name="CIF" id="CIF" value="94-666666" readonly>
+            </div>
+            <br>
+            <div class="linea2">
+                <label for="Direccion">Direccion:</label>
+                <input type="text" name="Direccion" id="Direccion" readonly value="Pennsylvania Avenue, 1600">
+                <label for="Provincia">Provincia:</label>
+                <input type="text" name="Direccion" id="Direccion" readonly value="Washington">
+            </div>
+            <br>
+            <div class="linea3">
+                <label for="Pais">Pais:</label>
+                <input type="text" name="Pais" id="Pais" readonly value="Estados Unidos">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="lineasfactura">
+
+        <h1>Lineas de factura</h1>
+        <table id="tabla1">
+            <thead>
+                <tr>
+                    <th>Cantidad</th>
+                    <th>Articulo</th>
+                    <th>Precio</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 6%;">1</td>
+                    <td>AROO1- Armadura de oro reluciente</td>
+                    <td style="text-align: center ; width: 10%;">350.000$</td>
+                    <td style="text-align: center ; width: 10%;">350.000$</td>
+                </tr>
+                <tr>
+                    <td style="width: 6%;">3</td>
+                    <td>ES002- Escudo antiproyectiles</td>
+                    <td style="text-align: center ; width: 10%;">50.000$</td>
+                    <td style="text-align: center ; width: 10%;">150.000$</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table id="base">
+            <tr>
+                <td style="width:10%;"> Base Imponible</td>
+                <td style="width:10%;">350.000$</td>
+            </tr>
+            <tr>
+                <td>Descuento</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>IVA 20%</td>
+                <td>100.000$</td>
+            </tr>
+            <tr>
+                <td>Total Neto</td>
+                <td>600.000&</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <h1>Forma de pago y Datos bancarios</h1>
+        <div class="pagos">
+        <form>
+            
+                <label for="contado">Pago al contado</label>
+                <input type="checkbox" name="contado" id="contado">
+                <br>
+                <label for="domiciliado">Pago domiciliado</label>
+                <input type="checkbox" name="domiciliado" id="domiciliado" checked>
+                <br>
+                <label for="tarjeta">Pago con tarjeta</label>
+                <input type="checkbox" name="tarjeta" id="tarjeta">
+            </div>
+            <div class="formularillo">
+            <form>
+                <label for="entidad">Entidad:</label>
+                <input type="text" name="entidad" id="entidad">
+                <br>
+                <label for="cuenta">Nº de cuenta:</label>
+                <input type="text" name="entidad" id="entidad">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

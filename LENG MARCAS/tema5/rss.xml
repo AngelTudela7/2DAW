@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noticias de League of Legends</title>
+    <link>https://www.leagueoflegendsnoticias.com</link>
+    <description>Las últimas novedades y eventos de League of Legends</description>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 21 Dec 2023 12:00:00 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>ChatGPT RSS Generator</generator>
+
+    <item>
+      <title>Nueva temporada de League of Legends: ¡Prepárate para la batalla!</title>
+      <link>https://www.leagueoflegendsnoticias.com/articulo1</link>
+      <description>Descubre las últimas novedades y cambios en la nueva temporada de League of Legends.</description>
+      <pubDate>Fri, 01 Jan 2023 08:00:00 GMT</pubDate>
+      <guid>https://www.leagueoflegendsnoticias.com/articulo1</guid>
+    </item>
+
+    <item>
+      <title>Torneo mundial de League of Legends 2023</title>
+      <link>https://www.leagueoflegendsnoticias.com/articulo2</link>
+      <description>Conoce a los equipos participantes y las emocionantes partidas que definirán al campeón mundial de este año.</description>
+      <pubDate>Mon, 10 Feb 2023 10:30:00 GMT</pubDate>
+      <guid>https://www.leagueoflegendsnoticias.com/articulo2</guid>
+    </item>
+
+    <item>
+      <title>Nuevos campeones y actualizaciones en el parche 11.5</title>
+      <link>https://www.leagueoflegendsnoticias.com/articulo3</link>
+      <description>Explora las habilidades y cambios en el juego con la llegada de nuevos campeones y actualizaciones en el último parche.</description>
+      <pubDate>Wed, 20 Mar 2023 15:45:00 GMT</pubDate>
+      <guid>https://www.leagueoflegendsnoticias.com/articulo3</guid>
+    </item>
+
+    <item>
+      <title>Entrevista exclusiva con el desarrollador de League of Legends</title>
+      <link>https://www.leagueoflegendsnoticias.com/articulo4</link>
+      <description>Obtén información detrás de escena con una entrevista exclusiva con uno de los desarrolladores clave de League of Legends.</description>
+      <pubDate>Thu, 15 Apr 2023 12:15:00 GMT</pubDate>
+      <guid>https://www.leagueoflegendsnoticias.com/articulo4</guid>
+    </item>
+
+    <item>
+      <title>Guía estratégica: Cómo subir de rango en la nueva temporada</title>
+      <link>https://www.leagueoflegendsnoticias.com/articulo5</link>
+      <description>Consejos y estrategias para mejorar tu desempeño y alcanzar un rango más alto en la nueva temporada de League of Legends.</description>
+      <pubDate>Sat, 01 May 2023 14:00:00 GMT</pubDate>
+      <guid>https://www.leagueoflegendsnoticias.com/articulo5</guid>
+    </item>
+  </channel>
+</rss>
+
+<!-- ¿Como añadir el archivo a la web? 
+Añadiendo esta linea al html de tu pagina
+<link rel="alternate" type="application/rss+xml" title="Noticias de League of Legends" href="https://www.vlogdeangel.com/rss.xml" />
+
+-->

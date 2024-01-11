@@ -1,0 +1,24 @@
+body {
+    background-image: url(https://download.vikidia.org/vikidia/es/images/4/49/M%C3%A1s_sabe_el_Perro_Sanxe_por_perro_que_por_Sanxe.jpg);
+    background-size: 300px 300px;
+    background-repeat: repeat;
+    /*Para que la foto no se repita y salga en pequeño abajo a la izquierda, debemos poner las siguientes lineas de codigo*/
+   /* background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;*/
+}
+
+#hache {
+    color: blue;
+    opacity: 0.5;
+}
+
+.hache1 {
+    color: blueviolet;
+    opacity: 0.80;
+}
+
+.segundoshaches{
+    color: chocolate;
+    opacity: 0.1000;
+}

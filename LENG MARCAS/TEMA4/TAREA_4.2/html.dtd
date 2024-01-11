@@ -1,0 +1,209 @@
+<!ELEMENT html (head, body)>
+<!ELEMENT head (base?, link*, meta*, noscript*, script*, style*, title)>
+<!ELEMENT body (a*, hr*, img*, h1*, h6*, p*, strong*, sub*, sup*, ol*, ul*, table*, form*)>
+
+<!ELEMENT base EMPTY>
+<!ATTLIST base
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  href CDATA #IMPLIED
+>
+
+<!ELEMENT link EMPTY>
+<!ATTLIST link
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  href CDATA #IMPLIED
+  rel CDATA #IMPLIED
+>
+
+<!ELEMENT meta EMPTY>
+<!ATTLIST meta
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT noscript (#PCDATA)>
+<!ATTLIST noscript
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT script (#PCDATA)>
+<!ATTLIST script
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT style (#PCDATA)>
+<!ATTLIST style
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  href CDATA #IMPLIED
+  rel CDATA #IMPLIED
+>
+
+<!ELEMENT hr EMPTY>
+<!ATTLIST hr
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT img EMPTY>
+<!ATTLIST img
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  src CDATA #IMPLIED
+  alt CDATA #IMPLIED
+  width CDATA #IMPLIED
+  height CDATA #IMPLIED
+>
+
+<!ELEMENT h1 (#PCDATA)>
+<!ATTLIST h1
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  left CDATA #IMPLIED
+  center CDATA #IMPLIED
+  right CDATA #IMPLIED
+>
+
+<!ELEMENT h6 (#PCDATA)>
+<!ATTLIST h6
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  left CDATA #IMPLIED
+  center CDATA #IMPLIED
+  right CDATA #IMPLIED
+>
+
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT strong (#PCDATA)>
+<!ATTLIST strong
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT sub (#PCDATA)>
+<!ATTLIST sub
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT sup (#PCDATA)>
+<!ATTLIST sup
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT ol (li+)>
+<!ATTLIST ol
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT ul (li+)>
+<!ATTLIST ul
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT li (#PCDATA)>
+<!ATTLIST li
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT table (tr+)>
+<!ATTLIST table
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  align CDATA #IMPLIED
+  border CDATA #IMPLIED
+  height CDATA #IMPLIED
+  width CDATA #IMPLIED
+>
+
+<!ELEMENT tr (td+)>
+<!ATTLIST tr
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT td (#PCDATA)>
+<!ATTLIST td
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+>
+
+<!ELEMENT form (#PCDATA)>
+<!ATTLIST form
+  id ID #IMPLIED
+  title CDATA #IMPLIED
+  onclick CDATA #IMPLIED
+  style CDATA #IMPLIED
+  action CDATA #IMPLIED
+  method CDATA #IMPLIED
+  enctype CDATA #IMPLIED
+>

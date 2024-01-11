@@ -1,0 +1,34 @@
+body{
+    position: static;
+}
+
+img{
+
+    position: absolute;
+
+}
+
+#moon{
+    left: 10%;
+    top: 10%;
+    
+}
+
+#death{
+    left: 15%;
+    top: 15%;
+}
+
+#hanged{
+    left: 20%;
+    top: 20%;
+}
+
+#fool{
+    left: 25%;
+    top: 25%;
+}
+
+#moon:hover,#death:hover,#hanged:hover,#fool:hover{
+    z-index: 1;
+}

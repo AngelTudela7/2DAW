@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Apartado A) Este elemento proporciona un campo en el que se ofrece la selección de un color al usuario -->
+    <label for="colorPicker">Selecciona un color:</label>
+    <input type="color" id="colorPicker" name="colorPicker">
+    <br>
+    <!-- Apartado B) La diferencia entre estos dos elementos es que en uno solo se puede elegir la fecha en formato dd/mm/aaaa "Dia,Mes,Año", mientras que en el otro se puede elegir dd/mm/aaaa/ --:-- "Dia,Mes,Año.Hora y Minutos"-->
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha">
+    <br>
+    <label for="fechaHora">Fecha y hora:</label>
+    <input type="datetime-local" id="fechaHora" name="fechaHora">
+    <br>
+
+    <!-- Apartado C) Permite seleccionar un archivo, mientras que el otro permite una selección múltiple. -->
+    <label for="fileInput">Selecciona un archivo:</label>
+    <input type="file" id="fileInput" name="fileInput">
+
+    <br>
+    <label for="filesInput">Selecciona múltiples archivos:</label>
+    <input type="file" id="filesInput" name="filesInput" multiple>
+
+
+    <!-- Apartado D) Crea un campo oculto -->
+
+    <input type="hidden" name="usuarioID" value="12345">
+
+    <br>
+    <!-- Apartado E) Crea un campo que permite realizar una búsqueda, pero sin una base de datos no es funcional -->
+    <br>
+    <label for="busqueda">Buscar:</label>
+    <input type="search" id="busqueda" name="busqueda">
+
+
+    <!-- Apartado F) Permite poner un numero de telefono, pero no verifica que lo sea, para ello se necesita realizar la comprobación pertinente-->
+    <br>
+    <label for="telefono">Número de teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+
+
+    <br>
+    <!-- Apartado G) Permite al usuario poner una url, sin embargo, no valida que sea correcta.  -->
+
+    <label for="sitioWeb">URL del sitio web:</label>
+    <input type="url" id="sitioWeb" name="sitioWeb">
+
+    <!-- Apartado H) Este elemento se utiliza para permitir a los usuarios seleccionar una semana específica en el calendario, en el formato "Año-Semana". -->
+    <br>
+    <label for="semana">Selecciona una semana:</label>
+    <input type="week" id="semana" name="semana">
+</body>
+
+</html>

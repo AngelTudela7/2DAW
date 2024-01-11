@@ -1,0 +1,69 @@
+ body {
+background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Felipe_VI_in_2023.jpg/220px-Felipe_VI_in_2023.jpg) ;
+background-repeat: no-repeat;
+background-position: bottom right;
+background-attachment: fixed;
+
+}
+
+.hache1{
+color: red;
+border: red 5px solid ;
+}
+
+.hache2{
+color: blue;
+border: yellow 5px dotted;    
+}
+
+
+.hache3{
+ color: green;
+ border: 5px   purple dashed; 
+}
+
+
+.hache4{
+ color:brown;
+ border: 15px olive double;   
+}
+
+
+.hache5{
+color: aqua;
+border:18px groove;    
+}
+
+
+.hache6{
+color: chocolate;
+border: 18px red outset;   
+}
+
+
+.hache7{
+ color: blueviolet;
+ border-bottom: 16px red groove;
+border-top: 16px blue outset;
+border-left: 16px yellow ridge;  
+border-right: 16px olive inset;
+}
+
+
+.hache8{
+color: red;    
+border: green 13px dotted;
+}
+
+
+
+.hache9{
+color: green;
+border: yellowgreen 9px transparent;   
+}
+
+
+.hache10{
+color: cadetblue;
+border: 8px blueviolet hidden ;    
+}

@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    background-color: rgb(144, 68, 216);
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body {
+
+    margin: 0;
+    background-color: gray;
+
+}
+
+a {
+
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+
+}
+
+
+
+nav h1 {
+
+    color: rgb(133, 12, 12);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+
+
+
+}
+
+#fotos {
+
+    display: flex;
+    justify-content: center;
+}
+
+#listas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: left;
+}
+
+nav a {
+
+    color: blue;
+    padding: 0;
+
+
+}
+
+
+
+
+
+section h1 {
+
+    display: flex;
+    text-align: left;
+
+}
+
+section img {
+
+    display: flex;
+    justify-content: left;
+
+
+}
+
+
+article h1 {
+
+    font-size: 50px;
+    color: rgb(37, 1, 109);
+    text-align: center;
+}
+
+article img {
+    display: flex;
+    padding-left: 40%;
+}
+
+article p {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(37, 1, 109);
+
+}
+
+article a {
+
+    color: blue;
+    padding: 0;
+    font-size: 22px;
+
+}
+
+footer {
+    background-color: rgb(144, 68, 216);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

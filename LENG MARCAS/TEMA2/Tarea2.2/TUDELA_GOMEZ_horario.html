@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fc0303;
+            color: #fff;
+        }
+
+        td {
+            border: 1px solid #0a0000;
+         
+        }
+
+        .despliegue {
+            background-color: #ffcccc;
+             
+        }
+
+        .diseño{
+            background-color: #ccffcc; 
+            ;
+        }
+
+         .cliente {
+            background-color: #027e4e; 
+            color: white;
+        }
+
+        
+        .servidor {
+            background-color: #c224b5;
+            color: white;
+        }
+
+        
+        .lenguajes {
+            background-color: #420bd8; 
+            color: white;
+        }
+
+        .recreo {
+            background-color: #ffcc99; 
+        }
+    </style>
+</head>
+<body>
+    <a href="index_ut02_02.html">Volver al index</a>
+    <h1>Horario</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>15:30 - 16:25</td>
+                <td class="despliegue">Despliegue </td>
+                <td class="lenguajes" rowspan="3">Lenguajes de marcas</td>
+                <td class="cliente"   rowspan="3">Desarrollo Web Entorno Cliente</td>
+                <td class="servidor" rowspan="3">Desarrollo Web Entorno Servidor</td>
+                <td class="despliegue"    rowspan="2">Despliegue</td>
+            </tr>
+            <tr>
+                <td>16:25 - 17:20</td>
+                <td class="servidor" rowspan="2">Desarrollo Web en entorno servidor</td>
+                
+            </tr>
+            <tr>
+                <td>17:20 - 18:15</td>
+                <td class="lenguajes">Lenguajes de Marcas</td>
+            </tr>
+            <tr>
+                <td>18:15-18:30</td>
+                <td class="recreo" colspan="5">Recreo</td>
+            </tr>
+            
+            <tr>
+                <td>18:30-19:25</td>
+                <td class="cliente"  rowspan="3">Desarrollo Web en Entorno Cliente</td>
+                <td class="diseño"   rowspan="3">Diseño de interfaces Web</td>
+                <td class="servidor"  rowspan="3">Desarrollo Web en Entorno Servidor</td>
+                <td class="despliegue">Despliegue </td>
+                <td class="diseño" rowspan="3">Diseño de interefaces Web</td>
+            </tr>
+
+            <tr>
+                <td>19:25-20:20</td>
+                <td class="cliente" rowspan="3">Desarrollo Web en Entorno Cliente</td>  
+            </tr>
+
+            <tr>
+                <td>20:20-21:15</td>  
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+</html>

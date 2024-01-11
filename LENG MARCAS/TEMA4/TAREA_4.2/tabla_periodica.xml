@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tabla_periodica.dtd" type="application/xml-dtd"?>
+<tabla_periodica>
+    <elemento estado="solido">
+        <nombre>Prometio</nombre>
+        <simbolo>Pm</simbolo>
+        <numero_atomico>61</numero_atomico>
+        <peso_atomico>145u</peso_atomico>
+        <punto_ebullicion unidades="°C">2999.85</punto_ebullicion>
+        <densidad unidades="kg/m3">7264</densidad>
+    </elemento>
+
+    <elemento estado="liquido">
+        <nombre>Mercurio</nombre>
+        <simbolo>Hg</simbolo>
+        <numero_atomico>80</numero_atomico>
+        <peso_atomico>200.59u</peso_atomico>
+        <punto_ebullicion unidades="°C">356.73</punto_ebullicion>
+        <densidad unidades="g/cm³">13,53</densidad>
+    </elemento>
+
+
+    <elemento estado="solido">
+        <nombre>Plutonio</nombre>
+        <simbolo>Pu</simbolo>
+        <numero_atomico>94</numero_atomico>
+        <peso_atomico>244u</peso_atomico>
+        <punto_ebullicion unidades="°C">3231.85</punto_ebullicion>
+        <densidad unidades="kg/m3">19816</densidad>
+    </elemento>
+
+</tabla_periodica>

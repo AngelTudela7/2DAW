@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-model href="videoclub.dtd" type="application/xml-dtd"?>
+<videoclub>
+  <factura>
+
+    <!-- Datos Cliente-->
+    <datos_cliente id_cliente="Cliente134">
+      <nombre_cliente>NombreCliente1</nombre_cliente>
+      <apellidos_cliente>ApellidosCliente1</apellidos_cliente>
+      <dni_cliente>12345678A</dni_cliente>
+      <telefono_cliente>987654321</telefono_cliente>
+    </datos_cliente>
+
+    <!-- Datos Factura-->
+    <datos_factura>
+      <resguardo_factura importe_total="100.00" forma_pago="Tarjeta"/>
+      <alquiler fecha_devolucion="2023-01-01">
+
+        <!-- Pelicula-->
+        <pelicula id_pelicula="Pelicula0134" valoracion="4">
+          <titulo>La Pelicula 1</titulo>
+          <genero>Accion</genero>
+          <duracion>120</duracion> 
+
+          <!-- Actores-->
+          <actores>
+            <actor>
+              <nombre_actor>Actor1</nombre_actor>
+              <apellidos_actor>Apellido1</apellidos_actor>
+            </actor>
+            <actor>
+              <nombre_actor>Actor2</nombre_actor>
+              <apellidos_actor>Apellido2</apellidos_actor>
+            </actor>
+            <actor>
+              <nombre_actor>Actor3</nombre_actor>
+              <apellidos_actor>Apellido3</apellidos_actor>
+            </actor>
+          </actores>
+          <caratula>imagen1.jpg</caratula>
+        </pelicula>
+      </alquiler>
+      
+      <!-- Comprar-->
+
+      <compra>
+        <dvd>
+          <titulo_dvd>DVD1</titulo_dvd>
+          <fecha_salida>2023-01-02</fecha_salida>
+          <extras>Escenas eliminadas</extras>
+        </dvd>
+      </compra>
+
+      <compra>
+        <cinta_video>
+          <formato>VHS</formato>
+          <esta_rebobinada>no</esta_rebobinada>
+        </cinta_video>
+      </compra>
+    </datos_factura>
+  </factura>
+</videoclub>

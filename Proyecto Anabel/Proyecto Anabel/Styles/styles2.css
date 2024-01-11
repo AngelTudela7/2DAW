@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 3px 9px 3px rgba(0, 0, 0, 0.5);
+}
+
+#descrip_foto{
+    text-align: center;
+     color: cadetblue;
+    font-size: 25px;
+}
+
+
+#instruccion{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+
+label {
+    left: 45%;
+    position: absolute;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    left: 52%;
+    top: 21%;
+    position: absolute;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 19px; 
+
+}
+
+input:hover{
+    background-color: aliceblue;
+}
+
+button{
+    position: absolute;
+    left: 48%;
+    border-radius: 19px; 
+    border: #3498db 2px solid;
+    background-color: #3498db; 
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    
+    }
+
+    .foto {
+        text-align: center; /* Centra horizontalmente el contenido dentro de .foto */
+        display: flex;
+        justify-content: center; /* Alinea horizontalmente el contenido en el centro */
+        align-items: center; /* Alinea verticalmente el contenido en el centro */
+        height: 500px; /* Ajusta la altura según sea necesario */
+    }
+    
+    .foto img {
+        max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+        max-height: 100%; /* Ajusta la altura máxima de la imagen */
+    }
+
+    h5{
+        position: absolute;
+        transform: rotate(45deg);
+        bottom:90%;
+        left: 90%;
+        color: blueviolet;
+    }
+    

@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+    
+}
+
+#felicitacion{
+text-align: center;
+font-family: 'Mountains of Christmas', serif;}
+
+
+h1{
+    text-align: center;
+}
+
+img{
+    display: flex;
+align-items: center;
+padding-left: 37%;
+width: 500px;
+}

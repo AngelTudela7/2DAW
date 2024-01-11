@@ -1,0 +1,38 @@
+<equipos>
+
+<equipo>
+    <nombre_equipo>Real Madrid</nombre_equipo>
+    <ciudad>Madrid</ciudad>
+    <entrenador></entrenador>
+<jugadores>
+    <jugador posicion="Delantero">
+        <nombre_jugador>Vinícius José Paixão de Oliveira Júnior </nombre_jugador>
+        <nacionalidad>Brasileiro</nacionalidad>
+    </jugador>
+
+    <jugador posicion="Centrocampista">
+        <nombre_jugador>Jude Bellingham</nombre_jugador>
+        <nacionalidad>Inglés</nacionalidad>
+    </jugador>
+</jugadores>
+</equipo>
+
+
+<equipo>
+    <nombre_equipo>Al-Nassr Football Club</nombre_equipo>
+    <ciudad>Riad</ciudad>
+    <entrenador></entrenador>
+<jugadores>
+    <jugador posicion="Delantero">
+        <nombre_jugador>Cristiano Ronaldo Dos Santos Aveiro (Cr7,El bicho)</nombre_jugador>
+        <nacionalidad>Portugués</nacionalidad>
+    </jugador>
+
+    <jugador posicion="Delantero">
+        <nombre_jugador>Sadio Mané</nombre_jugador>
+        <nacionalidad>Senegalés</nacionalidad>
+    </jugador>
+</jugadores>
+</equipo>
+
+</equipos>

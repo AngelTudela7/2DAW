@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    min-height: 100px;
+    
+ 
+}
+
+header{
+
+background-color: red;
+height: 150px;
+width: 100%;
+
+}
+
+.izquierda{
+
+
+float: left;
+width: 25%;
+height: 500px;
+background-color: blue;
+
+}
+
+.derecha{
+
+
+    float: right;
+    width: 25%;
+    height: 500px;
+    background-color: green;
+    
+    }
+
+    .centro{
+        
+        height: 500px;
+        background-color: pink;
+
+    }
+
+    footer{
+        
+background-color: yellow;
+height: 150px;
+
+    }

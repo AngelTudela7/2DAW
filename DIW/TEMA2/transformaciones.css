@@ -1,0 +1,15 @@
+.rotated-element {
+    transform: rotate(-140deg);
+}
+
+.translated-element {
+    transform: translate(100px, 20px);
+}
+
+.skewed-element {
+    transform: skewX(30deg);
+}
+
+.scaled-element {
+    transform: rotate(50px,90px);
+}

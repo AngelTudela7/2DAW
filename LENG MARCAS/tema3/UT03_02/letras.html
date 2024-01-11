@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambio de Color Dinámico Automático</title>
+  <style>
+    body {
+      font-size: 24px;
+    }
+
+    h1{
+
+        font-size: 100px;
+
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="texto">¿Me enseñas las tetas?</h1>
+
+  <script>
+    // Función para cambiar dinámicamente el color del texto
+    function cambiarColorDinamico() {
+      // Obtener el elemento de texto por su id
+      var elementoTexto = document.getElementById("texto");
+
+      // Generar un color aleatorio
+      var color = generarColorAleatorio();
+
+      // Aplicar el color al estilo del elemento de texto
+      elementoTexto.style.color = color;
+    }
+
+    // Función para generar un color aleatorio en formato RGB
+    function generarColorAleatorio() {
+      var r = Math.floor(Math.random() * 256);
+      var g = Math.floor(Math.random() * 256);
+      var b = Math.floor(Math.random() * 256);
+      return "rgb(" + r + "," + g + "," + b + ")";
+    }
+
+    // Cambiar el color automáticamente cada 2 segundos (2000 milisegundos)
+    setInterval(cambiarColorDinamico, 200);
+  </script>
+
+</body>
+</html>

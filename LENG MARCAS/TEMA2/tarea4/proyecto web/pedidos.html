@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="pagina.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pedidos.css">
+    <style>
+        body h1 {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>JuegosMolones.net</h1>
+        <div id="fotillomando">
+            <img src="fotos/image_processing20200508-14259-16z3mhg.png" alt="" width="200px" height="200px">
+        </div>
+        <div id="enlaces">
+            <a href="index.html">Inicio</a>
+            <a href="quienessomos.html">Quienes somos</a>
+            <a href="articulos.html">Articulos</a>
+            <a href="iniciosesion.html">Inicio Sesion</a>
+            <a href="pedidos.html">Pedidos</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <body>
+        <h1>Realizar Pedido</h1>
+        <br>
+        <div class="formulario">
+            
+            <form action="#" method="post">
+                <div class="formularito">
+                    <label for="nombre">Nombre del Cliente</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="formularito">
+                    <label for="producto">Producto</label>
+                    <select id="producto" name="producto">
+                        <option value="Elija un producto"></option>
+                        <option value="producto1">Call Of Duty MW3</option>
+                        <option value="producto2">The Legend of Zelda</option>
+                        <option value="producto3">Spiderman 2</option>
+                        
+                    </select>
+                </div>
+                <div class="formularito">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" id="cantidad" name="cantidad" placeholder="Ingrese la cantidad">
+                </div>
+                <div class="formularito">
+                    <label for="direccion">Dirección de Envío</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Ingrese la dirección de envío">
+                </div>
+                <button type="submit">Registrar Pedido</button>
+            </form>
+        </div>
+        <footer>
+            <p>Hecho por Angel Tudela Gomez</p>
+        </footer>
+    </body>
+
+</html>

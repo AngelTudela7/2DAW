@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definición de tipos complejos -->
+    <xs:complexType name="culoType">
+        <xs:sequence>
+            <xs:element name="Culillo" type="xs:string"/>            
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required"></xs:attribute>
+
+    </xs:complexType>
+
+
+    <xs:complexType name="vendedorType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="direccionType">
+        <xs:sequence>
+            <xs:element name="via" type="xs:string" />
+            <xs:element name="cp" type="xs:string" />
+            <xs:element name="localidad" type="xs:string" />
+            <xs:element name="provincia" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+    <xs:complexType name="telefonoType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="num" type="xs:string" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="clienteType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="direccion" type="direccionType" />
+            <xs:element name="telefono" type="telefonoType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="articuloType">
+        <xs:sequence>
+            <xs:element name="denominacion" type="xs:string" />
+            <xs:element name="precio" type="xs:decimal" />
+            <xs:element name="cantidad" type="xs:integer" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+        <xs:attribute name="iva" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Definición de tipo simple para descuento -->
+
+    <xs:simpleType name="descuentoType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Definición de tipo complejo para factura -->
+
+    <xs:complexType name="facturaType">
+        <xs:sequence>
+            <xs:element name="emision" type="xs:dateTime" />
+            <xs:element name="culo" type="culoType"></xs:element>
+            <xs:element name="vendedor" type="vendedorType" />
+            <xs:element name="cliente" type="clienteType" />
+            <xs:element name="articulo" type="articuloType" minOccurs="1" maxOccurs="unbounded" />
+            <xs:element name="descuento" type="descuentoType" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Definición del elemento factura -->
+
+    <xs:element name="factura" type="facturaType" />
+
+</xs:schema>

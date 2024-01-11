@@ -1,0 +1,36 @@
+<ciudades>
+<ciudad continente="Asia">
+    <nombre>Nueva Delhi</nombre>
+    <pais>India</pais>
+</ciudad>
+
+<ciudad continente="Europa">
+    <nombre>Lisboa</nombre>
+    <pais>Portugal</pais>
+</ciudad>
+
+
+<ciudad continente="Africa">
+    <nombre>El cairo</nombre>
+    <pais>Egipto</pais>
+</ciudad>
+
+
+<ciudad continente="Europa">
+    <nombre>Madrid</nombre>
+    <pais>España</pais>
+</ciudad>
+
+
+<ciudad continente="Europa">
+    <nombre>Berlín</nombre>
+    <pais>Alemania</pais>
+</ciudad>
+
+
+<ciudad continente="Sudamérica">
+    <nombre>Buenos Aires</nombre>
+    <pais>Argentina</pais>
+</ciudad>
+
+</ciudades>

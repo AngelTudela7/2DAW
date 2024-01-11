@@ -1,0 +1,7 @@
+.repeating-gradient-circle {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle ,yellow,red)
+  }
+
+  

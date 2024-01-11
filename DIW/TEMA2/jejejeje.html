@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #333;
+      margin: 10px;
+    }
+
+    .content {
+      width: 300px;
+      height: 300px;
+      background-color: #eee;
+    }
+
+    .visible {
+      overflow: visible;
+    }
+
+    .hidden {
+      overflow: hidden;
+    }
+
+    .scroll {
+      overflow: scroll;
+    }
+
+    .auto {
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content visible">Visible Overflow</div>
+  </div>
+
+  <div class="container">
+    <div class="content hidden">Hidden Overflow</div>
+  </div>
+
+  <div class="container">
+    <div class="content scroll">Scroll Overflow</div>
+  </div>
+
+  <div class="container">
+    <div class="content auto">Auto Overflow</div>
+  </div>
+</body>
+</html>
